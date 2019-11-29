@@ -16,6 +16,11 @@ h2 {
 img.catlogo {
   width: 100px;
 }
+
+img.citypic {
+  width: 300px;
+  height: 200px;
+}
   
 div.menu-nav {
   background-color: #e4fffc;
@@ -55,10 +60,14 @@ a:link {
 }
 
 
-.row {
+.main-row {
   display: flex;
 }
 
-.column {
-  flex: 50%;
+.main-column {
+  flex: 30%;
+}
+
+span.citybox {
+  text-align: center;
 }
