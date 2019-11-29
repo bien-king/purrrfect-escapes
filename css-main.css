@@ -1,1 +1,64 @@
-test
+body {
+  font-family: sans-serif;
+  color: black;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #f7838d;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: #e4fffc;
+}
+
+img.catlogo {
+  width: 100px;
+}
+  
+div.menu-nav {
+  background-color: #e4fffc;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
+  justify-content: space-around;
+  position: fixed;
+  padding-bottom: 15px;
+  background-color: #e4fffc;
+  text-decoration: none
+} 
+
+li {
+  display: inline;
+  padding: 30px;
+  text-decoration: none
+}
+
+li a {
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #f7838d;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
