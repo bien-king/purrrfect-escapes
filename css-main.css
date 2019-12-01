@@ -4,13 +4,14 @@ body {
 }
 
 h1 {
-  font-family: sans-serif;
+  font-family: 'Gochi Hand', cursive;
   color: #f7838d;
+  font-size: xx-large;
 }
 
 h2 {
   font-family: sans-serif;
-  color: #f7838d;
+  color: black;
 }
 
 img.catlogo {
@@ -30,6 +31,7 @@ img.citypic {
   overflow: hidden;
   top: 0; 
   opacity: 0.7;
+  z-index: 9999;
 }
 
 .navbar {
@@ -45,7 +47,10 @@ img.citypic {
 li {
   display: inline;
   padding: 30px;
-  text-decoration: none
+  text-decoration: none;
+  padding-top: 0;
+  font-size: large;
+  font-weight: bold;
 }
 
 li a {
@@ -68,10 +73,11 @@ a:link {
 .slideshow-container {
   max-width: 100%;
   position: relative;
-  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+
 }
-
-
 /* Hide the images by default */
 .mySlides {
   display: none;
@@ -110,9 +116,13 @@ a:link {
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 10px;
   width: 100%;
   text-align: center;
+  text-decoration-color: #f7838d;
+  font-size: xx-large;
+  font-weight: 200;
+  font-family: 'Gochi Hand', cursive;
 }
 
 /* Number text (1/3 etc) */
@@ -162,13 +172,35 @@ a:link {
   margin-bottom: 130px; 
 }
 
-div.main-column {
+.main-column {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 30px;
-  margin-top: 50px;
+  padding: 0px;
+  margin-top: 20px;
+  text-align: center;
 }
 
-span.citybox {
-  text-align: center;
+.two-column {
+  display: grid;
+  padding: 0px;
+  height: auto;
+  width: 30%;
+  margin-top: auto;
+  text-align: justify;  
+}
+
+.container-column {
+  width: 80%;
+  margin: 20px;
+  padding: 20px;
+}
+.one-column {
+  padding: 20px;
+  width: 45%;
+  float: left;
+}
+.two-column {
+  width: 60%;
+  margin-left: 50%;
+  margin-right: 10%;
 }

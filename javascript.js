@@ -26,4 +26,4 @@ function showSlides() {
 
 window.onload=function(){
     showSlides();
-    };
+    }
