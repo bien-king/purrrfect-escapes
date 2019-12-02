@@ -21,6 +21,12 @@ img.catlogo {
 img.citypic {
   width: 400px;
   height: 200px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.small-text:hover .citypic {
+  opacity: 0.5;
 }
   
 .menu-nav {
@@ -175,7 +181,8 @@ a:link {
 .main-column {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0px;
+  padding: 20px;
+  margin-right: 20px;
   margin-top: 20px;
   text-align: center;
 }
@@ -189,18 +196,99 @@ a:link {
   text-align: justify;  
 }
 
-.container-column {
-  width: 80%;
-  margin: 20px;
-  padding: 20px;
-}
 .one-column {
   padding: 20px;
-  width: 45%;
+  width: 30%;
   float: left;
 }
 .two-column {
-  width: 60%;
-  margin-left: 50%;
+  width: 50%;
+  margin-left: 40%;
   margin-right: 10%;
+}
+
+.small-text {
+  padding: 30px;
+}
+
+.booknow {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 50%;
+  background: #f7838d;
+  color: white;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.booknow:hover {
+  background-color: rgb(185, 72, 72);
+}
+
+input {
+  margin: 0;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: gray;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 14px;
+  align-content: right;
+}
+
+.searchcity {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 25%;
+  background: #f7838d;
+  color: white;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.small-column {
+  padding: 20px;
+  width: 30%;
+  float: left;
+}
+.large-column {
+  padding: 20px;
+  width: 60%;
+  float: left;
+  margin: 20px;
+}
+
+.container-column {
+  width: 70%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.img-city {
+  float: left;
+  width: 400px;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.clearfix {
+  width: 90%;
+  padding: 20px;
+  overflow: auto;
 }
