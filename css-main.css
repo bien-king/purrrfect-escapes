@@ -29,26 +29,6 @@ img.citypic {
   opacity: 0.5;
 }
   
-.menu-nav {
-  background-color: #e4fffc;
-  width: 100%;
-  margin: 0px;
-  position: fixed;
-  overflow: hidden;
-  top: 0; 
-  opacity: 0.7;
-  z-index: 9999;
-}
-
-.navbar {
-  list-style-type: none;
-  margin: 0;
-  width: 100%;
-  justify-content: space-around;
-  padding-bottom: 15px;
-  background-color: #e4fffc;
-  text-decoration: none;
-} 
 
 li {
   display: inline;
