@@ -69,6 +69,10 @@ a:link {
   display: none;
 }
 
+.mySlides fade {
+  text-align: center;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
