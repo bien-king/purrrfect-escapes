@@ -57,11 +57,10 @@ a:link {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  
 
 }
 /* Hide the images by default */
@@ -101,18 +100,17 @@ a:link {
 }
 
 /* Caption text */
-.text {
+.carouseltext {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 60px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   width: 100%;
-  text-align: center;
-  text-decoration-color: #f7838d;
-  font-size: xx-large;
+  text-align: right;
   font-weight: 200;
   font-family: 'Gochi Hand', cursive;
+  padding-right: 50px;
 }
 
 /* Number text (1/3 etc) */
@@ -159,7 +157,7 @@ a:link {
 }
 
 .main {
-  margin-bottom: 130px; 
+  margin-bottom: 100px; 
 }
 
 .main-column {
@@ -181,14 +179,20 @@ a:link {
 }
 
 .one-column {
-  padding: 20px;
+  margin-left: 15%;
+  margin-right: 0;
   width: 30%;
   float: left;
+  text-align: center;
 }
+
 .two-column {
-  width: 50%;
-  margin-left: 60%;
-  margin-right: 5%;  
+  width: 30%;
+  margin-left: 50%;
+  margin-right: 60%; 
+  text-align: center;
+  align-items: center;
+  position: relative;
 }
 
 .small-text {
@@ -196,19 +200,45 @@ a:link {
 }
 
 .booknow {
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
+  padding: 20px;
   width: 50%;
   background: #f7838d;
   color: white;
-  float: left;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  transition: 0.3s;
-  border-radius: 0;
+  transition: 0.3s; 
+  margin: auto;
+}
+
+.maincitycover {
+  position: relative;
+  width: 100%;
+  height: 800px;
+
+}
+.citycover {
+  width: 100%;
+  height: 800px;
+  align-content: center;
+  margin-top: -250px;
+  opacity: 50%;
+  overflow: hidden;
+  position: relative;
+}
+ 
+.mainlytext {
+color: #f7838d;
+font-size: 100px;
+line-height: 1.5em;
+text-shadow: 2px 2px 2px #000;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 50%;
+font-family: 'Gochi Hand', cursive;
 }
 
 .booknow:hover {
@@ -258,9 +288,11 @@ input {
 }
 
 .container-column {
-  width: 70%;
-  margin: 20px;
-  padding: 20px;
+  margin: 0 10% 0 10%;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: center; 
+  
 }
 
 .img-city {
@@ -275,4 +307,31 @@ input {
   width: 90%;
   padding: 20px;
   overflow: auto;
+}
+
+/* about us carousel */
+
+.carousel-inner {
+ width: 100%;
+ height: 800px;
+ align-content: center;
+ object-fit: cover;
+margin-top: -250px;
+vertical-align: middle;
+}
+
+.aboutustext {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.frontdev {
+  border-radius: 50%;
+  width: 250px;
+  height: auto;
+  align-self: center;
+  max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto auto;
 }
