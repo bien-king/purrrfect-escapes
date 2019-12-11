@@ -1,0 +1,19 @@
+.mainSection{
+    
+    margin: 30px 10%;
+    background-color: #F9EBE2;
+    width: 80%;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.mainSection h1{
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+table, td {
+    text-align: center;
+  }
+
