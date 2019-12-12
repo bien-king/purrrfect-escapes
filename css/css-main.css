@@ -214,32 +214,29 @@ a:link {
 .maincitycover {
   position: relative;
   width: 100%;
-  height: 800px;
+  height: 500px;
 
 }
 .citycover {
   width: 100%;
-  height: 800px;
-  align-content: center;
+  height: 700px;
   margin-top: -250px;
   opacity: 50%;
-  overflow: hidden;
   position: relative;
 }
  
 .mainlytext {
 color: #f7838d;
 font-size: 100px;
-line-height: 1.5em;
 text-shadow: 2px 2px 2px #000;
-text-align: center;
+font-family: 'Gochi Hand', cursive;
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-width: 50%;
-font-family: 'Gochi Hand', cursive;
 }
+
+
 
 .booknow:hover {
   background-color: rgb(185, 72, 72);
@@ -334,4 +331,8 @@ vertical-align: middle;
     max-height: 100%;
     display: block;
     margin: auto auto;
+}
+
+#formheight {
+  height: 150px;
 }

@@ -3,8 +3,10 @@
 <head>
 <title>Purrrfect Escapes</title>
 <link rel="stylesheet" href="../css/css-main.css" type='text/css'>
+<link rel="stylesheet" href="../css/form.css" type='text/css'>
 <link rel="stylesheet" href="../css/mainHeaderFooter.css" type='text/css'>
 <script type="text/javascript" src="../javascript.js"></script>  
+<script type="text/javascript" src="../datepicker.js"></script>  
 <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -41,56 +43,77 @@
 </div>
 </div>
 
+<div class="aboutustext">
+<h2> Our Top 3 City Picks</h2>
+<hr />
+
   <div class="clearfix">
-  <a href="city1-london.html"><img class="img-city" src="../images/london.jpg"><br>
-  <h2>London</h2></a>
+  <img class="img-city" src="../images/dauntbook.png"><br>
+  <h1>Daunt Books</h1>
   <p>
-    A trip to London doesn't have to be stressful! Explore now the most relaxing areas London has to offer. Not only, you'll enjoy the amazing England's city centre, you will also have exclusive access to perfect oasis designed for cat lovers and to those who just need the much needed break.
+    One of the loveliest bookshops in London, housed in an old Edwardian store with oak-panelled galleries and balconies and long bookshelves to browse. It invites slow saunters, casual leaning against a wall and hours spent exploring. The range is eclectic and international; you're sure to find a book you didn't know you were looking for. 
     </p>
     </div>  
 
   <div class="clearfix">
-  <a href="city1-london.html"><img class="img-city" src="../images/london.jpg"><br>
-  <h2>London</h2></a>
+ <img class="img-city" src="../images/kewgarden.png"><br>
+  <h1>Kew Gardens</h1>
   <p>
-    A trip to London doesn't have to be stressful! Explore now the most relaxing areas London has to offer. Not only, you'll enjoy the amazing England's city centre, you will also have exclusive access to perfect oasis designed for cat lovers and to those who just need the much needed break.
+    London's largest UNESCO World Heritage Site, the Kew Gardens is the perfect escape from the hustle and bustle of the city. Home to the world's most diverse collection of living plants and a scientific research centre of international renown, it's the perfect day out.
   </p> 
   </div>
 
   <div class="clearfix">
-  <a href="city1-london.html"><img class="img-city" src="../images/london.jpg"><br>
-  <h2>London</h2></a>
+  <img class="img-city" src="../images/ladydinah.png"><br>
+  <h1>Lady Dinah's Cat Emporium</h1>
   <p>
-    A trip to London doesn't have to be stressful! Explore now the most relaxing areas London has to offer. Not only, you'll enjoy the amazing England's city centre, you will also have exclusive access to perfect oasis designed for cat lovers and to those who just need the much needed break.
+    Taking inspiration from Tokyo, where this kind of thing first blossomed, Lady Dinah's was London's very first cat café, opening its doors back in 2014. Filled with cute kitties, faux-vintage furnishings and plenty of chintzy crockery, this crowd-funded caff in Bethnal Green takes cat loving to a new level. 
   </p>
 </div>
+<br>
+<div class="main"></div>
+<br>
 
 <h2>Book your Itinerary</h2>
-
-<section>
-    <form action="/action_page.php">
-      First name: <input type="text" name="fname" placeholder="Enter First Name" /><br>
-      Last name: <input type="text" name="lname" placeholder="Enter Last Name" /><br>
-      Email address:  <input type="text" name="email" placeholder="Enter Email Address" /><br>
-      Enter any request:  <input type="text" name="request" placeholder="Enter Any REquest" /><br>
-    </form>
-
-<input type="text" name="daterange" value="01/01/2020 - 01/15/2020" />
-<script>
-    $(function() {
-      $('input[name="daterange"]').daterangepicker({
-        opens: 'left'
-      }, function(start, end, label) {
-        console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
-      });
-    });
-    </script>
-
+<hr />
+<br>
+Enter your information in the form below. <br>
+<br>
+<br>
+<br>
+<div class="bookform">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name">
+    <br>
+    <br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name">
+    <br>
+    <br>
+    <label for="email">Email Address</label>
+    <input type="text" id="eadd" name="emailadd" placeholder="Your email address">
+    <br>
+    <br>
+    <label for="country">Select City</label>
+    <select id="country" name="country">
+      <option value="London">London</option>
+      <option value="New York">New York</option>
+      <option value="Tokyo">Tokyo</option>
+    </select>
+    <br>
+    <br>
+    <label for="date">Select Date</label>
+    <input type="text" name="daterange" value="YYYY-MM-DD - YYYY-MM-DD" />
     
-<input type="submit" value="Submit">
-</section>
+    <input type="submit" value="Submit">
+  </form>
 
 </div>
+</div>
+<br>
+<div class="main"></div>
+<br>
 <div class="mainFooter">
     <footer>
       <img src="../images/logo.png" width="50px">

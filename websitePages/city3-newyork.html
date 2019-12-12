@@ -3,8 +3,10 @@
 <head>
 <title>Purrrfect Escapes</title>
 <link rel="stylesheet" href="../css/css-main.css" type='text/css'>
+<link rel="stylesheet" href="../css/form.css" type='text/css'>
 <link rel="stylesheet" href="../css/mainHeaderFooter.css" type='text/css'>
 <script type="text/javascript" src="../javascript.js"></script>  
+<script type="text/javascript" src="../datepicker.js"></script>  
 <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,61 +35,93 @@
       </nav>  
     </div>
   </header>
-<div class="main">
+
+<div class="maincitycover">
+<img src="../images/new york.jpg" class="citycover">
+
+<div class="mainlytext"> New York
+</div>
 </div>
 
-  <br><br><br>
-  <p><center>
-      <h1>Highlights</h1></center>
-    </p>
+<div class="aboutustext">
+<h2> Our Top 3 City Picks</h2>
+<hr />
 
   <div class="clearfix">
-  <a href="city1-london.html"><img class="img-city" src="../images/london.jpg"><br>
-  <h2>London</h2></a>
+  <img class="img-city" src="../images/meowparlor.png"><br>
+  <h1>Meow Parlor</h1>
   <p>
-    A trip to London doesn't have to be stressful! Explore now the most relaxing areas London has to offer. Not only, you'll enjoy the amazing England's city centre, you will also have exclusive access to perfect oasis designed for cat lovers and to those who just need the much needed break.
+    Rent time to relax with our free-roaming cats. *Certain ages and activities may be limited to specific hours. Purchase food or beverages from Macaron Parlour and enjoy a sweet treat in the company of a furry friend. Adopt a cat. We are also an adoption group and all of our cats are adoptable through our nonprofit division, Meow Parlour Cats, Inc.
     </p>
     </div>  
 
   <div class="clearfix">
-  <a href="city1-london.html"><img class="img-city" src="../images/london.jpg"><br>
-  <h2>London</h2></a>
+  <img class="img-city" src="../images/monkhouse.png"><br>
+  <h1>Mohonk Mountain House</h1>
   <p>
-    A trip to London doesn't have to be stressful! Explore now the most relaxing areas London has to offer. Not only, you'll enjoy the amazing England's city centre, you will also have exclusive access to perfect oasis designed for cat lovers and to those who just need the much needed break.
+    With a name like Mohonk Mountain House, it shouldn’t be a surprise that the rustic 19th-century lodge is nestled in 40,000 acres of wilderness with plenty of hiking, kayaking and horseback riding. But the National Historic Landmark is equally renowned for its award-winning spa (try the signature “Mohonk Red” massage, which uses witch hazel). 
   </p> 
   </div>
 
   <div class="clearfix">
-  <a href="city1-london.html"><img class="img-city" src="../images/london.jpg"><br>
-  <h2>London</h2></a>
+  <img class="img-city" src="../images/copperhood.png"><br>
+  <h1>Copperhood Retreat and Spa</h1>
   <p>
-    A trip to London doesn't have to be stressful! Explore now the most relaxing areas London has to offer. Not only, you'll enjoy the amazing England's city centre, you will also have exclusive access to perfect oasis designed for cat lovers and to those who just need the much needed break.
+    Take temptation out of the equation at this spot, known for weight-loss plans specializing in nutrient-rich juices and bone broths. After you complete a personalized questionnaire, your progress is closely monitored throughout your stay. Activities like snowshoeing or bird-watching take full advantage of the Catskills, but if you prefer to stay indoors, there’s yoga, cardio and swimming. 
   </p>
 </div>
+<br>
+<div class="main"></div>
+<br>
 
 <h2>Book your Itinerary</h2>
+<hr />
+<br>
+Enter your information in the form below. <br>
+<br>
+<br>
+<br>
+<div class="bookform">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name">
+    <br>
+    <br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name">
+    <br>
+    <br>
+    <label for="email">Email Address</label>
+    <input type="text" id="eadd" name="emailadd" placeholder="Your email address">
+    <br>
+    <br>
+    <label for="country">Select City</label>
+    <select id="country" name="country">
+      <option value="New York">New York</option>
+      <option value="London">London</option>
+      <option value="Tokyo">Tokyo</option>
+    </select>
+    <br>
+    <br>
+    <label for="date">Select Date</label>
+    <input type="text" name="daterange" value="YYYY-MM-DD - YYYY-MM-DD" />
+    
+    <input type="submit" value="Submit">
+  </form>
 
-<section>
-    <form action="/action_page.php">
-      First name: <input type="text" name="fname" placeholder="Enter First Name" /><br>
-      Last name: <input type="text" name="lname" placeholder="Enter Last Name" /><br>
-      Email address:  <input type="text" name="email" placeholder="Enter Email Address" /><br>
-      Enter any request:  <input type="text" name="request" placeholder="Enter Any REquest" /><br>
-    </form>
-
-<input type="text" name="daterange" value="01/01/2020 - 01/15/2020" />
-
-<input type="submit" value="Submit">
-</section>
-
+</div>
+</div>
+<br>
+<div class="main"></div>
+<br>
 <div class="mainFooter">
     <footer>
       <img src="../images/logo.png" width="50px">
       <br>
       <br>
-      <a href="www.facebook.com" class="fa fa-facebook"></a>
-      <a href="www.twitter.com" class="fa fa-twitter"></a>
-      <a href="www.linkedin.com" class="fa fa-linkedin"></a>
+      <a href="http://www.facebook.com" class="fa fa-facebook"></a>
+      <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+      <a href="http://www.linkedin.com" class="fa fa-linkedin"></a>
       <br>
       <br>
       <p>
