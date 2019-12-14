@@ -1,44 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Contact Us|Purfect Escapess</title>
-    <link rel="stylesheet" href="/css/contact.css" />
-  </head>
+<html>
+<head>
+<title>Purrrfect Escapes</title>
+<link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/logo1.png">
+<link rel="stylesheet" href="/css/contact.css" type="text/css">
+<link rel="stylesheet" href="/css/mainHeaderFooter.css" type='text/css'>
+</head> 
 
-  <body>
-      <header>
+<body>
+    <header>
         <div class="container-nav">
-          <img src="/images/logo.png" width="130px" />
-          <nav class="mainMenu">
-            <ul class="navbar">
-              <li><a href="/main.html">HOME</a></li>
-              <li><a href="/about us.html">ABOUT US</a></li>
-            </ul>
-            <span class="dropdown">
-                <button class="dropbtn"><a href="#">DESTINATION</a></button>
-                <div class="dropdown-content">
-                  <a href="#">LONDON</a>
-                  <a href="#">NEW YORK</a>
-                  <a href="#">TOYKO</a>
-                </div></span>
-                <span
-                  ><li><a href="/websitePages/contact.html">CONTACT US</a></li></span
-                >
-              </span>
-          </nav>  
-        </div>
-      </header>
+            <img class="catlogo" src="../images/logo.png"/>
+            <nav class="mainMenu">
+              <ul class="navbar">
+                <li><a href="/websitePages/main.html">HOME</a></li>
+                <li><a href="/websitePages/about us.html">ABOUT US</a></li>
+              </ul>
+              <span class="dropdown">
+                  <button class="dropbtn"><a href="/websitePages/cities.html">DESTINATION</a></button>
+                  <div class="dropdown-content">
+                    <a href="/websitePages/city1-london.html">LONDON</a>
+                    <a href="/websitePages/city3-newyork.html">NEW YORK</a>
+                    <a href="/websitePages/city2-tokyo.html">TOKYO</a>
+                  </div></span>
+                  <span
+                    ><li><a href="/websitePages/contact.html">CONTACT US</a></li></span>
+                </span>
+            </nav>  
+          </div>
+    </header>
 
+
+<div class="spacenav"></div>
     <div class="header">
-      <h1>CONTACT US</h1>
+      <h2 class="aboutustext">CONTACT US</h2>
     </div>
-    <hr />
+    <hr /><br><br>
     <div id="contInfo">
-      <h3>HAVE A QUESTION FOR US? GET IN TOUCH!</h3>
-      <p>
+      <h3 class="aboutustext">HAVE A QUESTION FOR US? GET IN TOUCH!</h3>
+      <p class="aboutustext">
         Fill out the form below and we will respond to you as soon as possible.
         Please allow upto 3-5 working days to receive a response.
         <br />
@@ -47,8 +50,8 @@
         response.
       </p>
     </div>
-    <br>
-    <div id="form">
+    <br><br>
+    <div id="form" class="aboutustext">
       <form action="process.php" method="POST">
         <input
           type="Text"
@@ -70,18 +73,22 @@
         <input type="submit" name="submit" value="SUBMIT" />
       </form>
     </div>
-
-    <div class="mainFooter">
-        <footer>
-          <img src="/images/logo.png" width="50px">
-          <br>
-          <br>
-          <p>
-            Copyright © 2019. PurrrfectEscapes. All rights reserved. 
-          </p>
-        </footer>
-    </div>
-    
+    <br><br>
+     
+<div class="mainFooter">
+      <footer>
+        <img class="footerLogo" src="../images/logo.png">
+        <br>
+        <br>
+        <a href="http://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+        <a href="http://www.linkedin.com" class="fa fa-linkedin"></a>
+        <br>
+        <br>
+        <p>
+          Copyright © 2019. PurrrfectEscapes. All rights reserved. 
+        </p>
+      </footer>
+</div>
   </body>
-</html>
-
+  </html>
