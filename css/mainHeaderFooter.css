@@ -190,7 +190,7 @@ li{
     padding: 1%;
     width: 100%;
     height: 100px;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .dropbtn {
