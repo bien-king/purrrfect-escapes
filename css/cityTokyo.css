@@ -23,15 +23,12 @@
 
 body{
     background-color: #F0F0F0;
-    overflow: visible
-    ;
+    overflow: visible;
 }
 
 .tokyoHeading{
     margin: 30px;
 }
-
-
 
 .country{
     font-size: 20px;
@@ -61,7 +58,6 @@ hr {
     font-size: 16px;
     text-align: center;
 }
-
 
 .hvrbox,
 .hvrbox * {
@@ -125,4 +121,17 @@ hr {
 
 .row{
     margin: 0;
+}
+
+.container{
+
+    background-color: #F9EBE2;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.gridtext p{
+    
+    text-align: center;
+    font-size: 30px;
 }
