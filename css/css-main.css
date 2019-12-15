@@ -193,13 +193,13 @@ a:link {
 
 .booknow {
   padding: 20px;
-  width: 50%;
   background: #f7838d;
   color: white;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s; 
+  width: 30%;
   margin: auto;
 }
 
@@ -315,4 +315,12 @@ input {
 
 #formheight {
   height: 150px;
+}
+
+hr{
+  width: 50%; 
+}
+
+.slogan{
+  text-align: right;
 }
