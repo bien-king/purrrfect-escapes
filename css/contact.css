@@ -125,7 +125,7 @@ hr {
   margin-bottom: 0.5em;
   margin-left: 150px;
   margin-right: 150px;
-  border-width: 1px;
+  border-width: .5px;
   border-color: black;
 }
 
@@ -184,4 +184,3 @@ input[type="submit"] {
   font-family: 'Courier New', Courier, monospace;
   font-size: 12px;
 }
-

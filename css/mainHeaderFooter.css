@@ -184,7 +184,7 @@ li{
 }
 
 .container-nav{
-    background-color: #e4fffc;
+    background-color:white;
     display: flex;
     justify-content: space-between;
     top: 0; 
@@ -197,7 +197,23 @@ li{
     position: fixed;
     z-index: 9999;
     text-decoration-style: none;
+    transition: opacity 2s;
+    
 }
+
+.navbar {
+  text-decoration: none;
+}
+
+.dropdown {
+  text-decoration: none;
+}
+
+
+.container-nav-toggle:hover, .container-nav-default .container-nav  -toggle:focus{
+  background-color: transparent !important;
+}
+
 
 .catlogo{
   width: 130px;
@@ -208,7 +224,7 @@ li{
   border: none;
   outline: none;
   color: black;
-  background-color: #e4fffc;
+  background-color: transparent;
   font-family: sans-serif; /* Important for vertical align on mobile phones */
   margin-left: 10px;
 }
@@ -245,7 +261,9 @@ li{
 .mainMenu {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
+
 
 /*------------end of main header---------------*/
 

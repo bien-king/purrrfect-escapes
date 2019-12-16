@@ -26,7 +26,10 @@ input[type=text], select {
   .bookform {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
-    height: 480px;
+    padding: 30px;
+    height: 500px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
   

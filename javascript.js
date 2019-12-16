@@ -1,4 +1,4 @@
-var slideIndex = 1;
+/* var slideIndex = 1;
 
 // Next/previous controls
 function plusSlides(n) {
@@ -10,7 +10,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-var slideIndex = 0;
+//var slideIndex = 0;
 
 function showSlides() {
   var i;
@@ -26,15 +26,29 @@ function showSlides() {
 
 window.onload=function(){
     showSlides();
-    }
+    } */
 
 
-// date selector
 
-$(function() {
-  $('input[name="daterange"]').daterangepicker({
-    opens: 'left'
-  }, function(start, end, label) {
-    console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 75) {
+          $('.container-nav').css('background-color', 'rgba(249, 235, 226, .9)');
+      }
+      else {
+          $('.container-nav').css('background-color', 'rgba(249, 235, 226, 0.01)');
+      }
   });
-});
+  
+  $(document).ready(function(){
+      $('.container-nav').live("mouseover", function () {
+              $(this).css("opacity", 1);
+              });
+  
+      $('.container-nav').live("mouseleave", function () {
+          if($(window).scrollTop() > 75) { // this here
+              $(this).css("opacity", 1);
+          }
+      });
+  
+  })
+  

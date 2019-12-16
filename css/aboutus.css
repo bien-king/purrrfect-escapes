@@ -1,27 +1,52 @@
 .mainSection{
     
-    margin: 30px 10%;
+    margin: 20px 10%;
     background-color: #F9EBE2;
     width: 80%;
-    padding: 30px;
+    padding: 50px;
     border-radius: 30px;
-}
-
-.mainSection h1{
-    font-size: 50px;
-    text-transform: uppercase;
-
 }
 
 table, td {
     text-align: center;
   }
 
-h1{
-    text-align: center;
-}
 
 .sleepingCat{
     width: 400px;
 }
 
+.AboutusContent {
+    flex: 1;
+    vertical-align: top;
+    margin-top: 20px;
+    text-align: justify;
+    &:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 100px;
+    margin-right: 10px;
+    border-width: .5px;
+    border-color: black;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+}
+  
+
+h1 {
+    font-family: 'Gochi Hand', cursive;
+    color: #f7838d;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+  }
