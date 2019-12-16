@@ -184,3 +184,11 @@ input[type="submit"] {
   font-family: 'Courier New', Courier, monospace;
   font-size: 12px;
 }
+
+
+h1 {
+  font-family: 'Gochi Hand', cursive;
+  color: #f7838d;
+  font-size: xx-large;
+  text-align: center;
+}
