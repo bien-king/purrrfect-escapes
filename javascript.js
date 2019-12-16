@@ -1,5 +1,5 @@
 
-    $(window).scroll(function() {
+    $(window).scroll(function(){
       if ($(window).scrollTop() > 75) {
           $('.container-nav').css('background-color', 'rgba(249, 235, 226, .9)');
       }
