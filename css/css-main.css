@@ -337,7 +337,7 @@ input {
 
 img.frontdev {
   border-radius: 50%;
-  width: 200px;
+  width: 210px;
   height: 200px;
   align-self: center;
   max-width: 100%;
@@ -382,7 +382,7 @@ hr {
 /* about us carousel */
 
 .carousel-inner {
-  max-width: 100%;
+  
   height: auto;
   align-content: center;
   object-fit: cover;
@@ -392,8 +392,6 @@ hr {
 
  .caroselpic {
    width: 100%;
-   object-fit: cover;
-   height: auto;
  }
 
 
