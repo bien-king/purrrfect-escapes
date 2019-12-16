@@ -57,6 +57,12 @@ hr {
 .mainSection, p{
     font-size: 16px;
     text-align: center;
+    font-family: sans-serif;
+    line-height: 2em;
+}
+
+.mainlineTokyo{
+    font-family: sans-serif;
 }
 
 .hvrbox,
@@ -97,9 +103,11 @@ hr {
 }
 .hvrbox .hvrbox-text {
 	text-align: center;
-	font-size: 18px;
+	font-size: 20px;
 	display: inline-block;
-	position: absolute;
+    position: absolute;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px pink;
 	top: 50%;
 	left: 50%;
 	-moz-transform: translate(-50%, -50%);
@@ -133,4 +141,5 @@ hr {
 .gridtext p{
     text-align: center;
     font-size: 30px;
+    color: #f7838d;
 }

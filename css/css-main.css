@@ -395,3 +395,8 @@ hr {
    object-fit: cover;
    height: auto;
  }
+
+
+.slogan{
+  text-align: right;
+}
